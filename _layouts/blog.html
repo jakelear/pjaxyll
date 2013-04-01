@@ -1,0 +1,14 @@
+{% include header.html %}
+<div id="main" class="post-body">
+  {% if page.is_index %}
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include blog-post.html %}
+  {% else %}
+    {% assign post = page %}
+    {% include blog-post.html %}
+  {% endif %}
+</div>
+
+{% include footer.html %}
+

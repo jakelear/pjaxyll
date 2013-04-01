@@ -1,0 +1,13 @@
+<title>{{ page.title }}</title>
+<p class="date"><time class="date" datetime="{{ page.date }}" pubdate>{{ page.date | date:'%B %d, %Y' }}</time></p>
+<h1 class="title">{{page.title}}</h1>
+<div class="content">
+  {{ content }}
+</div>
+
+{% if page.previous %}
+  <a id="previous" class="controls previous" href="{{ page.previous }}"> Previous </a>
+{% endif %}
+{% if page.next %}
+  <a id="next" class="controls next" href="{{ page.next }}"> Next </a>
+{% endif %}

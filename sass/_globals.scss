@@ -1,0 +1,12 @@
+// Some @extendables where you can stick your default font families.
+.-font-sans-serif {
+  font-family: sans-serif;
+}
+.-font-serif {
+  font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .-font-serif;
+  line-height: 1;
+}

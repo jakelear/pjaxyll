@@ -1,0 +1,12 @@
+# Jekyll config
+permalink: /:year/:title
+pygments: true
+paginate: 5
+source: .
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'Readme.md', 'sass', 'newpost.sh', 'notes.mdown', 'deploy:live', 'images/sprites' ]
+
+# site-wide variables
+name: Sitename
+url: http://example.com
+css_version: '02'
+

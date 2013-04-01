@@ -1,0 +1,10 @@
+---
+
+title: Pjaxyll - Pjax and Jekyll together
+category: text
+layout: blog
+
+---
+
+This is a demo of Pjax and Jekyll working together.
+Clone this repo into a directory served by apache to test it out.

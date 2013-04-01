@@ -1,0 +1,11 @@
+---
+
+title: Pjaxyll Demo 2
+category: text
+layout: blog
+
+---
+
+Arrows or keyboard controls (left/right arrow) page between posts.
+PJAX headers tell Apache to redirect the request and serve an ajax-ified version
+of the post content. Pjax handles updating the browser history.

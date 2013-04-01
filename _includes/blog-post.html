@@ -1,0 +1,18 @@
+
+<article class="{{ post.category }}">
+  <p class="date"><a href="{{ post.url }}" data-pjax="#main"><time class="date" datetime="{{ post.date }}" pubdate>{{ post.date | date:'%B %d, %Y' }}</time></a></p>
+  <div class="post clearfix">
+    <h1 class="title">{{ post.title }}</h1>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% if post.previous %}
+      <a id="previous" class="controls previous" href="{{ post.previous.url }}"> &lt; </a>
+    {% endif %}
+    {% if post.next %}
+      <a id="next" class="controls next" href="{{ post.next.url }}"> &gt; </a>
+    {% endif %}
+  </div>
+</article>

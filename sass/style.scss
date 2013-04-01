@@ -1,0 +1,70 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3/background-size";
+@import 'globals';
+@import 'vars';
+@import 'mixins';
+
+body {
+  @extend .-font-sans-serif;
+  line-height: 1.4;
+  color: #1a1a1a;
+  a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: #162d83;
+  }
+  a:hover {
+    color: #283256;
+  }
+}
+
+.container {
+  width: 500px;
+  padding: $container-gutter;
+  margin: 0 0 0 200px;
+  font-size: 15px;
+  position: relative;
+  min-height: 800px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.date {
+  @extend .-font-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.controls:link, .controls:visited, .controls:active {
+  $control-width: 55px;
+  position: absolute;
+  font-size: 30px;
+  display: block;
+  padding: 30px;
+  color: #333;
+  top: 400px;
+  width: $control-width;
+
+  &:hover {
+    color: #CCC;
+  }
+
+  &.previous {
+    left: -70px;
+  }
+  &.next {
+    right: -105px;
+  }
+}
