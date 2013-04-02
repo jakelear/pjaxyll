@@ -1,6 +1,8 @@
 Licensing Note: Jquery Pjax and Jekyll are both included in this repo and are both
 available under the MIT license.
+
 [Jekyll](https://github.com/mojombo/jekyll/blob/master/LICENSE) - Copyright (c) Tom Preston-Werner
+
 [Pjax](https://github.com/defunkt/jquery-pjax/blob/master/LICENSE) - Copyright (c) Chris Wanstrath
 
 (The MIT License)

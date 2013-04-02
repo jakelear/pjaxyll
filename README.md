@@ -16,3 +16,13 @@ Rake also takes care of the following:
 * Duplicate each post and replace the layout with a pjax specific layout.
 * Add the post date of the YAML front matter of the PJAX version to retain the post date
 * Compile the jekyll site
+
+
+## Installation and Use:
+
+To install, clone/fork this repo into. Run
+    bundle install
+to install jekyll, rake, sass, and compass.
+
+## License:
+[License](https://github.com/jakelear/pjaxyll/blob/master/LICENSE.md)
