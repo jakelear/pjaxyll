@@ -42,10 +42,27 @@ Run
     
 to generate the first site and you'll be able to visit your fast new demo blog.
 
-### Customizing the config to fit your needs
+### Customizing the config to fit your needs:
 
 `_config.yml` is the Jekyll config. You should update the site name and url here. Also make note of the permalink format. Currently, the
 htaccess RewriteRules are set up specifically for this format. If you need to change this format, you'll need to alter the RewriteRules in `.htaccess` to account for any changes.
+
+In `Rakefile`, there is a task called "deploy" that uses rsync to copy the _site directory up. You can modify this with your ssh username and domain if you wish to use
+the `rake deploy:live` task to publish your site.
+
+###  Building the Site
+
+You can use the demo posts in `_posts` as an example to write posts. Be sure to use the same format for the post filename. After writing a post,
+or making other changes to the site (css, javascript, etc), Run
+
+   `rake build`
+   
+which generates the site, and creates the pjax versions using the pjax layout.
+
+### More info:
+
+I wrote a 2 part post on how I set up my blog using this. You can check it out [here](http://jakebot.com/2013/jekyll-pjax-part-1/)
+Should help fill in any blanks but feel free to get at me on twitter @jakelear if you need anything.
 
 
 ## License:
