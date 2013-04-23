@@ -6,6 +6,7 @@ Sped up by [pjax](https://github.com/defunkt/jquery-pjax)
 
 Deployed with rake/rsync
 
+[Demo](http://pjaxyll.jakebot.com/2013/Pjaxyll-Demo)
 
 ## How it works:
 
