@@ -6,7 +6,7 @@ Sped up by [pjax](https://github.com/defunkt/jquery-pjax)
 
 Deployed with rake/rsync
 
-[Demo](http://pjaxyll.jakebot.com/2013/Pjaxyll-Demo)
+I accidentally torpedo'd the demo some time ago. Sorry :(
 
 ## How it works:
 
@@ -62,8 +62,8 @@ which generates the site, and creates the pjax versions using the pjax layout.
 
 ### More info:
 
-I wrote a 2 part post on how I set up my blog using this. You can check it out [here](http://jakebot.com/2013/jekyll-pjax-part-1/).
-Should help fill in any blanks but feel free to get at me on twitter @jakelear if you need anything.
+I accidentally torpedo'd the demo some time ago. Sorry :(
+Feel free to get at me on twitter @jakelear if you need anything.
 
 
 ## License:
